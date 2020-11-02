@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row
-      ><v-col v-for="(i, index) in list" :key="index" cols="3">
+      ><v-col v-for="(i, index) in list" :key="index" md="3" sm="3">
         <v-card
           class="btn-room nav--text text-center"
           width="100"
